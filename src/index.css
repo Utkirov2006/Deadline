@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  justify-content: space-around;
+  border: 2px solid #EDEEF2;
+  align-items: center;
+}
+
+.navbar input {
+  width: 250px;
+  height: 45px;
+  background: #EDEEF2;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 18px;
+}
+
+.navbar li {
+  position: relative;
+  left: 10rem;
+  margin: -50px;
+  list-style: none;
+}
+
+.box {
+  position: relative;
+  left: 6rem;
+  height: 60px;
+  width: 60px;
+  background: #F3F4FF;
+  color: #4E60FF;
+  padding: 22px;
+  border-radius: 16px;
+}
+
+.logo {
+  width: 68px;
+  height: 67px;
+  background-image: url(./images/img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  margin-left: -34px;
+}
+
+
+.card {
+  position: relative;
+  top: 4rem;
+  left: 7rem;
+  width: 630px;
+  height: 260px;
+  display: inline-block;
+  background: rgb(0, 0, 0, 0.4);
+  border-radius: 14px;
+  text-align: center;
+  margin: 25px;
+  border-radius: 16px;
+  box-shadow: 3px 3px 3px silver;
+
+}
+
+.card .avatar {
+  display: flex;
+  width: 338px;
+  height: 258px;
+  margin-left: 9px;
+  filter: drop-shadow(0px -12px 32px rgba(156, 155, 157, 0.16));
+
+}
+
+.card .wrapper {
+  position: absolute;
+  top: 1rem;
+  left: 21rem;
+  line-height: 71px;
+}
+
+
+.footer {
+  position: relative;
+  left: 7rem;
+  top: 6rem;
+  width: 186px;
+  height: 100px;
+  margin: 20px;
+  display: inline-block;
+  background: #ffff;
+  border: 1px solid #697BFF;
+  border-radius: 16px;
+}
+
+.footer .portret {
+  width: 45px;
+  margin: 10px 0px 0px 70px;
+}
+
+.footer h2 {
+  font-size: 20px;
+  margin: 7px 0px 0px 66px;
+}
+
+
+.container {
+  position: relative;
+  top: 9rem;
+  left: 7rem;
+  display: inline-block;
+  width: 413px;
+  margin: 20px;
+  background: #FFFFFF;
+  border: 1px solid #EDEEF2;
+  border-radius: 16px;
+
+}
+
+.container .kitchen{
+  width: 100%;
+}
+.container h5 {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.container button {
+  width: 110px;
+  height: 35px;
+  border-radius: 15px;
+  margin: 10px;
+
+}
+.container button i {
+  color: orange;
+}
+
+.container g {
+  margin: 7px;
+  color: #83859C;
+  line-height: 30px;
+}
+
